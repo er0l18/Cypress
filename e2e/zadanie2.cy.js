@@ -2,7 +2,7 @@
 
 describe('Zadanie logowanie', () => {
   beforeEach(() => {  
-    cy.visit('https://www.edu.goit.global/account/login')
+    cy.visit('https://www.edu.goit.global/account/login');
   })
   it('Test 1', () => {
     cy.get('#user_email').type('user888@gmail.com');
